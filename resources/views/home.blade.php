@@ -52,7 +52,7 @@
 
  @extends('layout')
 
-@section('title', 'All Students')
+@section('title', 'All  Students')
 
 @section('content')
     <div class="container mt-5">

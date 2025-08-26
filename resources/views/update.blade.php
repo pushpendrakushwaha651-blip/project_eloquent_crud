@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Update User Data')
+@section('title', 'Update User Data ')
 
 @section('content')
 <div class="container mt-4">
@@ -20,7 +20,6 @@
                    value="{{ old('name', $student->name) }}"
                    required>
         </div>
-
         <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="email"

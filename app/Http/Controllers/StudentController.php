@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Student;
-// students1 table name 
+// students1 table-name
 
 use Illuminate\Http\Request;
 
@@ -74,10 +74,6 @@ public function index()
         // dd($user);
         return redirect()->route('users.index')
         ->with('status','New User Added Successfully ');
-
-
-        
-
 
     }
 

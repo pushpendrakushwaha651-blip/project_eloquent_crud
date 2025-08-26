@@ -25,7 +25,6 @@
     justify-content:flex-end;
     padding:36px;
   }
-
   /* Floating container (bottom-right) */
   .fab-wrap{
     position:fixed;
